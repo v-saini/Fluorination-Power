@@ -17,7 +17,7 @@ Solvent, Smiles, FPD values and 1613 numerical descriptors extracted from Smiles
 
 
 ### F260_175
-Truncated dataset obtained after feature preprocessing consisting of 175 numerical descriptors, 
+Truncated dataset obtained after feature preprocessing consisting of 175 numerical descriptors. 
 Name of the Reagent, Smiles, Type of Reagent, Reagent ID Number, Solvent, and FPD values.
 
 ## Train
@@ -30,22 +30,24 @@ Solvent, and FPD values.
 
 
 ## predictions_test_nn
-Name of the Reagent, Type of Reagent, Solvent, Actual FPD values of the test set, Predicted FPD values of the test set, 
+Name of the Reagent, Type of Reagent, Solvent, Actual FPD values of the test set, Predicted FPD values of the test set. 
 Absolute error - For NN model
 
 
 ## predictions_train_nn
-Name of the Reagent, Type of Reagent, Solvent, Actual FPD values of the train set, Predicted FPD values of the train set, 
+Name of the Reagent, Type of Reagent, Solvent, Actual FPD values of the train set, Predicted FPD values of the train set.
 - For NN model
 
 ## predictions_test_rf
-Name of the Reagent, Type of Reagent, Solvent, Actual FPD values of the test set, Predicted FPD values of the test set, 
+Name of the Reagent, Type of Reagent, Solvent, Actual FPD values of the test set, Predicted FPD values of the test set. 
 - For RF model
 
 ## predictions_train_rf
-Name of the Reagent, Type of Reagent, Solvent, Actual FPD values of the train set, Predicted FPD values of the train set, 
+Name of the Reagent, Type of Reagent, Solvent, Actual FPD values of the train set, Predicted FPD values of the train set. 
 - For NN model
 
-
+## adanalysis
+File containing output data of applicability domain analysis done using “Applicability Domain (using standardization approach) v1.0” software available at:
+https://sites.google.com/site/dtclabad/ 
 
 
